@@ -24,8 +24,9 @@ header {
 .header-cont {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    align-items: center;
 }
 
 #menu__toggle, .menu__btn  {
@@ -80,9 +81,15 @@ nav a:hover {
     color: #c9f1fc;
 }
 
+.menu__contacts {
+    display: flex;
+    align-items: center;
+}
+
 .phone {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .phone span {
@@ -113,7 +120,6 @@ nav a:hover {
 .greet-img {
     position: absolute;
     left: 40px;
-    /* width: 509px; */
     height: calc(100vh - 80px);
 }
 
@@ -425,8 +431,8 @@ h1 {
     width: 80%;
     margin: 0 auto;
 }
- 
-.reviews-cont p {
+
+.reviews-item {
     box-shadow: 0 0 40px 0 rgb(0 109 113 / 64%);
     padding: 20px;
     margin: 20px 40px 20px 0;
@@ -434,7 +440,11 @@ h1 {
     min-width: 220px;
 }
 
-.reviews-cont p:last-child {
+.reviews-item h3 {
+    margin-bottom: 20px;
+}
+
+.reviews-item:last-child {
     margin-right: 0;
 }
 
@@ -452,17 +462,6 @@ footer {
     width: 80%;
     margin: 0 auto;
 }
-
-
-/* БРЕЙКИ
-1110px
-1050px
-970px
-750
-580
-540
-460px
-411px */
 
 @media screen and (max-width: 1110px){
     .about-gallery {
@@ -499,7 +498,7 @@ footer {
         flex-direction: column;
     }
 
-    .reviews-cont p {
+    .reviews-item {
         margin-right: 0;
     }
 
@@ -579,13 +578,7 @@ footer {
 
 }
 
-@media screen and (max-width: 750px){
-    .greet-wrapper {
-        background-size: 2100px;
-    }
- }
-
-@media screen and (max-width: 750px){
+@media screen and (max-width: 860px){
     .burger {
         position: fixed;
     }
@@ -670,6 +663,15 @@ footer {
     nav a {
         padding: 20px 40px;
     }
+}
+
+@media screen and (max-width: 750px){
+    .greet-wrapper {
+        background-size: 2100px;
+    }
+ }
+
+@media screen and (max-width: 750px){
 
     .about-gallery__item {
         display: none;
@@ -797,6 +799,14 @@ footer {
     #menu__toggle:checked ~ nav {
         width: 250px;
     }
+
+    .menu__contacts p:last-child {
+        font-size: 14px;
+    }
+
+    .phone {
+        margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 411px){
@@ -813,5 +823,13 @@ footer {
 
     .about-text  {
         width: 95%;
+    }
+
+    .menu__contacts {
+        flex-direction: column;
+    }
+
+    .phone {
+        margin-bottom: 15px;
     }
 }
