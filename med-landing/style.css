@@ -832,4 +832,8 @@ footer {
     .phone {
         margin-bottom: 15px;
     }
+
+    #menu__toggle:checked ~ nav {
+        top: 120px;
+    }
 }
