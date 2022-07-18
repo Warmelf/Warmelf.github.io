@@ -38,10 +38,3 @@ body.addEventListener('click', () => {
         input.classList.remove('input-search');
     }
 });
-
-document.addEventListener('click', function(e) {
-  
-    if((e.target.id != 'menu__toggle') && (e.target.id != 'menuSearch')) {
-        menuToggle.checked = false;
-    }
-});

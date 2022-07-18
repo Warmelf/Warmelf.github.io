@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Life devepoment</title>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="src/main-logo.png" alt="Life devepoment">
+        </div>
+        <div class="header-information">
+            <span class="header__phone"><a href="tel:8-800-222-3790" class="phone-btn">8 800 222-37-90</a></span>
+            <a class="phone-btn-img" href="tel:8-800-222-3790"><img src="src/icons/phone.png" alt="8 800 222-37-90"></a>
+            <span class="header__description">Работаем ежедневно с 10:00 до 20:00</span>
+        </div>
+        <ul class="main-menu">
+            <li class="marquee">
+                <a href="/" class="main-menu__link">Квартиры</a>
+            </li>
+            <li class="marquee">
+                <a href="/" class="main-menu__link">Ипотека</a>
+            </li>
+            <li class="marquee">
+                <a href="/" class="main-menu__link">Коммерция</a>
+            </li>
+            <li class="marquee">
+                <a href="/" class="main-menu__link">Управляющая компания</a>
+            </li>
+            <li class="burger-block">
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </li>
+        </ul>
+    </header>
+    <section class="main">
+        <div class="media-icons__container">
+            <div class="logo"></div>
+            <ul class="media-icons__list">
+                <li>
+                    <a href="/"><img src="src/media-icons/fb.png" alt="fb"></a>
+                </li>
+                <li>
+                    <a href="/"><img src="src/media-icons/inst.png" alt="inst"></a>
+                </li>
+                <li>
+                    <a href="/"><img src="src/media-icons/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="/"><img src="src/media-icons/vk.png" alt="vk"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="complex">
+            <div class="complex-names__container">
+                <ul class="complex-names__list">
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Северный парк
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Станция Столичная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Лето
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Сказочный сад
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Краски
+                        </a>
+                    </li>
+                </ul>
+                <ul class="complex-names__list">
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Ренесанс
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Компасс сити
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Бруклин
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="complex-names__list-link" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            Монблан
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="complex-description-block">
+                <div class="complex-img__container">
+                    <img src="src/comlex-img1.jpg" alt="Жилой комплекс" class="complex-img">
+                </div>
+                <span>Северный парк</span>
+                <p class="complex-description">
+                    Жилой комплекс небывалого масштаба с развитой инфраструктурой
+                </p>
+            </div>
+        </div>
+        <div class="tagline-block__container">
+            <div class="arrows">
+                <div class="arr-left__block">
+                    <img src="src/icons/arr-left.png" alt="<" class="arr-left">
+                </div>
+                <div class="arr-right__block">
+                    <img src="src/icons/arr-ellipse.svg" alt="" class="arr-ellipse">
+                    <img src="src/icons/arr-right.png" alt=">" class="arr-right">
+                </div>
+            </div>
+            <div>
+                <h1 class="tagline">Стильная архитектура и виды из окон будущей квартиры не оставят равнодушных</h1>
+                <div class="tagline-block__buttons">
+                    <div class="tagline-block__button">
+                        <a href="/" class="tagline-block__link">
+                            <span class="tagline-block__plus">+</span> Выбрать квартиру
+                        </a>
+                    </div>
+                    <div class="tagline-block__last-btn">
+                        <a href="/" class="tagline-block__link">
+                            Купить квартиру онлайн >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <ul class="footer-list">
+            <li class="footer-list__item">
+                <p class="footer-list__title">Количество комнат</p>
+                <ul class="footer-list__sublist">
+                    <li><a href="/" class="footer-list__link footer-corner-left">студия</a></li>
+                    <li><a href="/" class="footer-list__link">1</a></li>
+                    <li><a href="/" class="footer-list__link">2</a></li>
+                    <li><a href="/" class="footer-list__link">3</a></li>
+                    <li><a href="/" class="footer-list__link footer-corner-right footer-last-link">4</a></li>
+                </ul>
+            </li>
+            <li class="footer-list__item">
+                <p class="footer-list__title">Площадь</p>
+                <ul class="footer-list__sublist">
+                    <li class="footer-list__link footer-corner-left footer-width">
+                        <span class="footer-limiter">от</span>
+                        <input type="number" placeholder="32" class="footer-number"> м<sup>2</sup>
+                    </li>
+                    <li class="footer-list__link footer-corner-right footer-last-link footer-width">
+                        <span class="footer-limiter">до</span> 
+                        <input type="number" placeholder="186" class="footer-number square-big"> м<sup>2</sup>
+                    </li>
+                </ul>
+                <div class="slider-block">
+                    <input type="range" min="32" max="186" value="32" class="slider" id="lowerSquare">
+                    <input type="range" min="32" max="186" value="186" class="slider" id="higherSquare">
+                </div>
+            </li>
+            <li class="footer-list__item">
+                <p class="footer-list__title">Стоимость, млн ₽</p>
+                <ul class="footer-list__sublist">
+                    <li class="footer-list__link footer-corner-left footer-width">
+                        <span class="footer-limiter">от</span>
+                        <input type="number" placeholder="1,5" class="footer-number square-big">
+                    </li>
+                    <li class="footer-list__link footer-corner-right footer-last-link footer-width">
+                        <span class="footer-limiter">до</span> 
+                        <input type="number" placeholder="17,5" class="footer-number square-big">
+                    </li>
+                </ul>
+                <div class="slider-block">
+                    <input type="range" min="1.5" max="17.5" value="1.5" class="slider" id="lowerPrice">
+                    <input type="range" min="1.5" max="17.5" value="17.5" class="slider" id="higherPrice">
+                </div>
+            </li>
+            <li class="footer-list__item">
+                <p class="footer-list__title">Жилой комплекс</p>
+                <select name="complex" class="select-complex">
+                    <option value="northPark" selected>Северный парк</option>
+                    <option value="value2">Значение 2</option>
+                    <option value="value3">Значение 3</option>
+                </select>
+            </li>
+        </ul>
+        <div class="footer-buttons">
+            <div class="footer-buttons__filter">
+                <a href="/" class="footer-filter__img">
+                    <img src="src/icons/filter.png" alt="">
+                </a>        
+                <a href="/" class="footer-filter">Еще фильтры</a>
+            </div>
+            <div class="footer-buttons__show">
+                <a href="/" class="footer-show">Показать 120 квартир</a>
+            </div>
+        </div>
+        <div class="footer-search-input">
+            <input type="text" placeholder="Подобрать квартиру">
+        </div>
+    </footer>
+</body>
+<script src="js/app.js"></script>
+</html>
